@@ -1,0 +1,36 @@
+{
+  "name": "@jdiestramelendez/sls-off",
+  "version": "1.0.4",
+  "description": "A wrapper for serverless-offline that allows multiple instances to be ran concurrently with watch functionality",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jose Diestra",
+  "bin": {
+    "sls-off": "bin/multi.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "5.1.0",
+    "get-installed-path": "4.0.8",
+    "minimist": "1.2.5",
+    "nodemon": "2.0.3"
+  },
+  "keywords": [
+    "serverless",
+    "serverless offline",
+    "serverless offline multiple"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdiestramelendez/serverless-offline-multi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jdiestramelendez/serverless-offline-multi/issues"
+  },
+  "homepage": "https://github.com/jdiestramelendez/serverless-offline-multi#readme",
+  "directories": {
+    "lib": "lib"
+  }
+}
